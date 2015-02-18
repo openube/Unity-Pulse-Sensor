@@ -22,10 +22,6 @@ void loop()
     Serial.println(BPM);
     QS = false;
   }
-  else
-  {
-    Serial.println(0);
-  }
 
   delay(20);
 }
